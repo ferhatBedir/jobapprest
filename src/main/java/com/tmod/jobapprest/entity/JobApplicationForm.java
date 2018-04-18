@@ -44,7 +44,7 @@ public class JobApplicationForm {
     @Column(nullable = false)
     private ApprovalStatus approvalStatus;
 
-    @Column(nullable = false)
+    @Column
     private Date approvalDate;
 
 
